@@ -95,20 +95,20 @@ section:nth-child(1) {
     border-radius: 20px;
 }
 
-.section2header {
+/* .section2header {
     text-align:left;
-}
+} */
 
 .section2one {
     display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: inline;
 }
 
 .section2two {
     display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: inline;
 }
 
 .sectionCards {
@@ -159,14 +159,13 @@ section :nth-child(2) p {
 .section3 {
     background-color: rgb(25, 26, 27);  
     border-radius: 20px;
-    
-    
 }
 
 .section3cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline;
+    align-items: inline;
+    justify-content: inline;
+    /* text-align: left; */
 }
 
 .section3button {
@@ -179,6 +178,13 @@ section :nth-child(2) p {
     margin-bottom: -40px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+}
+
+.section3button:hover {
+    cursor: pointer;
+    box-shadow: 1px 3px 8px 1px black;
+    transition: ease 0.3s;
 }
 
 .section3download {
